@@ -1,2 +1,2 @@
 # Notes On JavaScript
-An Open Source JavaSript Knowledge Base
+An Open Source JavaScript Knowledge Base
