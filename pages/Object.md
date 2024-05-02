@@ -1,8 +1,13 @@
-- JavaScript is designed on a simple object-based paradigm. An object is a built-in data type for storing key-value pairs. Data inside objects are unordered, and the values can be of any type.
-  title:: Object
+## Overview
+id:: 6632a2ba-bc8f-4dbc-a37b-482b4e6c72c9
+	- JavaScript is designed on a simple object-based paradigm. An object is a built-in data type for storing key-value pairs. Data inside objects are unordered, and the values can be of any type.
+	- id:: 6631ecc9-0300-4a38-8ef3-f301d62284e8
+	  ```javascript
+	  obj = {};
+	  ```
 - ## Object Literals
   id:: 6631948e-a741-4051-9e0e-aea120e4287a
-	- Object initializers are also called *object literals*. "Object initializer" is consistent with the terminology used by C++. The syntax for an object using an object initializer is:
+	- Object literals are also called *object initializers*. "Object literals" is consistent with the terminology used by C++. The syntax for an object using an object literal is:
 	- ```JavaScript
 	  const person = {
 	      getName: function () {

@@ -1,4 +1,5 @@
 ## Properties and values of a JavaScript object
+id:: 6631ecc9-0032-432d-96cc-8263ceb93c65
 	- A JavaScript object literal is enclosed with curly braces `{}`. Values are mapped to keys in the object with a colon `( : )`, and the key-value pairs are separated by commas.
 	- All the keys are unique, but values are not.
 	- Key-value pairs of an object are also referred to as properties.
@@ -23,6 +24,7 @@
 	  console.log(apple.price.bulk); // '$3/kg'
 	  ```
 - ## Accessing non-existent JavaScript properties
+  id:: 6631ecc9-a58a-410f-b542-b098862d2344
 	- When trying to access a JavaScript object property that has not been defined yet, the value of undefined will be returned by default.
 	- ```javascript
 	  const classElection = {
@@ -32,6 +34,7 @@
 	  console.log(classElection.place); // undefined
 	  ```
 - ## Delete operator
+  id:: 6631ecc9-7cff-4344-87d6-21685f91883d
 	- Once an object is created in JavaScript, it is possible to remove properties from the object using the delete operator.
 	- The delete keyword deletes both the value of the property and the property itself from the object.
 	- The delete operator only works on properties, not on variables or functions.
