@@ -420,6 +420,7 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "MMM do, yyyy"
- :feature/enable-journals? true
- :default-home {}
- :ui/show-brackets? false}
+ :feature/enable-journals? false
+ :default-home {:page "Contents"}
+ :ui/show-brackets? false
+ :publishing/all-pages-public? true}
